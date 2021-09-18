@@ -60,8 +60,6 @@ std::string string_generator(const int size)
 		}
 	}
 	
-
-	
 	return newString;
 }
 
