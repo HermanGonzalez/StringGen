@@ -27,7 +27,7 @@ void check_limits(int& max, char& current, int transform) {
 
 std::string string_generator(const int size) 
 {
-	char characters[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+	char characters[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
 	int maxUpperCaseLetters = random(1, 2);
 	int maxNumCharaters = random(1, 2);
 
